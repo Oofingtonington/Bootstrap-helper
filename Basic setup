@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="de">
+
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwimmspaß GmbH</title>
+
+    <!-- Mein CSS -->
+
+    <link href="/css/Styling.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+
+
+  <body>
+
+    <!-- NAVBAR -->
+
+    <header>
+        <div id="head">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container navigation">
+                    <a class="navbar-logo" href="index.html"><img src="/images/Logo_Schwimmspass_GmbH.svg" alt="Logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="angeboteevents.html">Angebote + Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="oeffnungszeitenpreise.html">Öffnungszeiten + Preise</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kontakt.html">Impressum</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+<!-- Hero Image -->
+
+    <div class="container-fluid container-hero">
+        <!-- <div id="Hero-Image">
+            <img src="/images/Flamingo_Hero_Background_1920x1080.jpg" alt="Flamingo in swimming pool" width=100%>
+        </div> -->
+        <div class= "Hero-Image-Textfeld">
+            <p class="logofont_01">Schwimmspaß GmbH</p>
+            <p class="logofont_02">in Wasserland</p>
+            <p class="hero-header">Einfach gemeinsam abtauchen</p>
+            <p class="hero-subheader">Wir betreiben ein öffentliches Schwimmbad für die ganze Familie.</p>
+            <p class="hero-text">Egal, ob Sie mit ihrem Kleinkind kommen, Jugendliche/r sind oder 
+                Sportschwimmer/-in, unsere Becken bieten allen einen passenden 
+                Ort, Dazu kommen Sprungtürme im Innen- und Außenbereich.</p>
+            <p class="hero-text">Über die Sauna erfahren Sie alles Wichtige hier: <a href="#">www.sauna-wasserland.de</a></p>
+            <p class="hero-text">Das Freibad mit Liegewiesen ist von Mai bis Oktober geöffnet.</p>
+            <button class="button-design">Öffnungszeiten</button>
+        </div>
+
+        <div id="separator-header" class="separator">
+            <img src="/images/Header_Decoration_Big.svg" alt="decorative separator">
+        </div>        
+    </div>
+
+
+<!-- Slider -->
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicator dots -->
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The Slideshow/carousel -->
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/Girl_on_edge_of_swimming_pool_1920x1080.jpg" alt="Girl_on_edge_of_swimming_pool" class="d-block w-100">
+                <div class="carousel-item-textbox">
+                    <div class="carousel-item-textbox-headline">
+                        <p>Seepferdchen [ 5-10 Jahre ]</p>                       
+                    </div>
+                    <div class="carousel-item-textbox-text">
+                        <p>Wir wollen nicht baden gehen. Wendig wie ein Seepferdchen im Wasser.</p>
+                    </div>
+                    <div class="carousel-item-textbox-icon">
+                        <img src="../">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/Kids_in_swimming_pool_1920x1080.jpg" alt="Kids_in_swimming_pool" class="d-block w-100">
+                <div class="carousel-item-textbox">
+                        DAWOINWADI
+                    </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/images/Swimmer_underwater_1920x1080.jpg" alt="Swimmer_underwater" class="d-block w-100">
+                <div class="carousel-item-textbox">
+                        DAWOINWADI
+                    </div>
+            </div>
+        </div>
+
+        <!-- Left and right control icons -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+        </div>
+    </header>
+
+    <footer>
+
+        <div id="separator-footer" class="separator">
+            <img src="/images/Footer_Decoration_Big.svg" alt="Footer decorative background">
+        </div>
+
+    </footer>
+
+
+    <script src="/js/bootstrap.min.js"></script>
+
+  </body>
+
+
+</html>
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Caveat';
+    src: url(../fonts/Caveat/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/Figtree/Figtree-VariableFont_wght.ttf);
+}
+
+
+/* BODY */
+
+body{
+    font-family: Figtree !important;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* SLIDER */
+
+#demo{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.carousel-inner img{
+    border-radius: 8%;
+    border-left: 5%;
+    border-right: 5%;
+}
+
+.carousel-item-textbox{
+    z-index: 5;
+    position: absolute;
+    background: url(../images/Carousel_Slide_Background.svg);
+    width: 100%;
+    height: 30%;
+    bottom: 0px;    
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.carousel-item{
+    padding: 0;
+}
+
+
+/* NAVIGATION */
+
+.container.navigation{
+    margin-left: 1%;
+}
+
+.navbar.navbar-expand-lg{
+    position: fixed;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    z-index: 10;
+    background-color: #f8f8f8;
+}
+
+.nav-item .nav-link{
+    color: #004A97;
+    font-weight: bold;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.navbar-logo{
+    width: 8%;
+    margin-right: 3%;
+}
+
+
+/* HERO-IMAGE */
+
+.hero-header{
+    font-family: caveat;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FF6661
+}
+
+.separator{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+
+#separator-header{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+}
+
+.container-fluid.container-hero{
+    background: url("../images/Flamingo_Hero_Background_1920x1080.jpg");
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+#Hero-Image{
+    width: 100% auto;
+    position: absolute;
+}
+
+.Hero-Image-Textfeld{
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left:5%;
+    z-index: 6;
+}
+
+.hero-subheader{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #004A97;
+}
+
+.hero-text{
+    width: 30%;
+}
+
+.button-design{
+    background-color: #004A97;
+    color: #f8f8f8;
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+#main-containers {
+
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    box-sizing: border-box;
+    
+    position: relative;
+    
+    padding: 0 5% 20% 5%;
+    
+    color: #063955;
+    
+    margin-bottom: 30%;
+    
+    }
+    
+    
+    
+    
+    @media screen and (max-width: 766px) {
+    
+    .col-md-6.termine {
+    
+    padding-top: 50px;
+    
+    }
+    
+    }
+    
+    
+    
+    
+    
+    /*----Termine----*/
+    
+    
+    
+    
+    .container-item {
+    
+    border: 3px solid #c1d5ed;
+    
+    border-radius: 10px;
+    
+    margin-bottom: 15px;
+    
+    padding: 20px;
+    
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
+    
+    position: relative;
+    
+    }
+    
+    
+    
+    
+    .container-item:hover {
+    
+    background-color: #063955;
+    
+    color: white;
+    
+    }
+    
+    
+    
+    
+    .booked {
+    
+    background-color: red;
+    
+    cursor: default;
+    
+    border: 3px solid red;
+    
+    color: white;
+    
+    }
+    
+    
+    
+    
+    .booked:hover {
+    
+    background-color: red;
+    
+    color: inherit;
+    
+    }
+    
+    
+    
+    
+    .booked-banner {
+    
+    position: absolute;
+    
+    right: 5px;
+    
+    top: 20px;
+    
+    transform: rotate(20deg);
+    
+    background-color: white;
+    
+    color: #063955;
+    
+    padding: 10px;
+    
+    border-radius: 8px;
+    
+    border: 3px solid #c1d5ed;
+    
+    }
+    
+    
+    
+    
+    .preis {
+    
+    font-size: 1.4em;
+    
+    font-weight: bold;
+    
+    }
+    
+    
+    
+    
+    .container-item {
+    
+    cursor: pointer;
+    
+    }
+    
+    
+    
+    
+    .modal-backdrop {
+    
+    backdrop-filter: blur(5px);
+    
+    }
